@@ -1,0 +1,157 @@
+1552238416766	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ftfDdJANPYXu"
+1552238417902	Marionette	INFO	Listening on port 32827
+1552238417975	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552238418064	Marionette	DEBUG	[2147483649] Frame script loaded
+1552238418065	Marionette	DEBUG	[2147483649] Frame script registered
+1552238418084	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552238418096	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552238418271	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552238418299	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552239083371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.KRiw9g9RMN3H"
+1552239084505	Marionette	INFO	Listening on port 37525
+1552239084575	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552239084615	Marionette	DEBUG	[2147483649] Frame script loaded
+1552239084616	Marionette	DEBUG	[2147483649] Frame script registered
+1552239084624	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552239084637	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552239084817	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239084830	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+[Parent 13285, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552239110173	Marionette	INFO	Stopped listening on port 37525
+[Parent 12575, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552239112986	Marionette	INFO	Stopped listening on port 32827
+1552239115010	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.4vQJQZU3FTii"
+1552239116109	Marionette	INFO	Listening on port 45773
+1552239116121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552239116152	Marionette	DEBUG	[2147483649] Frame script loaded
+1552239116153	Marionette	DEBUG	[2147483649] Frame script registered
+1552239116167	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552239116185	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552239116330	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239116350	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+
+(/usr/lib/firefox/firefox:13633): dconf-WARNING **: 01:32:16.801: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 13530, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552239155102	Marionette	INFO	Stopped listening on port 45773
+1552239161947	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.3Uk9yuW8098D"
+1552239163041	Marionette	INFO	Listening on port 41893
+1552239163066	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552239163097	Marionette	DEBUG	[2147483649] Frame script loaded
+1552239163098	Marionette	DEBUG	[2147483649] Frame script registered
+1552239163107	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552239163124	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552239163278	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239163297	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239163574	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552239163837	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:13886): dconf-WARNING **: 01:32:48.529: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552239266623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LDYZdNx9XBzm"
+1552239267728	Marionette	INFO	Listening on port 40791
+1552239267833	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552239267867	Marionette	DEBUG	[2147483649] Frame script loaded
+1552239267868	Marionette	DEBUG	[2147483649] Frame script registered
+1552239267876	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552239267890	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552239268049	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239268066	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239268344	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552239268574	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239268589	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239268590	Marionette	DEBUG	[2147483649] Received DOM event unload for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239268691	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_success?ac_id=1&theme=basic1&srun_domain=@edu
+1552239268702	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_success?ac_id=1&theme=basic1&srun_domain=@edu
+1552239287806	Marionette	INFO	Stopped listening on port 41893
+[Parent 14069, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552239293464	Marionette	INFO	Stopped listening on port 40791
+1552239562339	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xzcYxRPQ9yk7"
+1552239563430	Marionette	INFO	Listening on port 42003
+1552239563444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552239563475	Marionette	DEBUG	[2147483649] Frame script loaded
+1552239563479	Marionette	DEBUG	[2147483649] Frame script registered
+1552239563492	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552239563542	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552239563719	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239563742	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239564021	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552239564190	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239564201	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239564201	Marionette	DEBUG	[2147483649] Received DOM event unload for http://192.168.27.190/srun_portal_pc?ac_id=1&theme=basic1
+1552239564313	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://192.168.27.190/srun_portal_success?ac_id=1&theme=basic1&srun_domain=@edu
+1552239564324	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://192.168.27.190/srun_portal_success?ac_id=1&theme=basic1&srun_domain=@edu
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+[Parent 14408, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552273694840	Marionette	INFO	Stopped listening on port 42003
+1552284927664	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Hs16HexnDYXR"
+1552284928855	Marionette	INFO	Listening on port 37737
+1552284928976	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552284929027	Marionette	DEBUG	[2147483649] Frame script loaded
+1552284929031	Marionette	DEBUG	[2147483649] Frame script registered
+1552284929055	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552284964905	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552284964906	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1552284964907	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+[Parent 3299, Gecko_IOThread] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552284965063	Marionette	INFO	Stopped listening on port 37737
+1552284970029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yuQkjFld6Ecw"
+1552284971232	Marionette	INFO	Listening on port 41861
+1552284971333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552284971374	Marionette	DEBUG	[2147483649] Frame script loaded
+1552284971375	Marionette	DEBUG	[2147483649] Frame script registered
+1552284971384	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552284994801	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552284994801	Marionette	DEBUG	[2147483649] Received DOM event unload for about:blank
+1552284994803	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+[Parent 3528, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552284994947	Marionette	INFO	Stopped listening on port 41861
+1552285055211	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.AP49q9VvfJfW"
+1552285056305	Marionette	INFO	Listening on port 45763
+1552285056317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552285056348	Marionette	DEBUG	[2147483649] Frame script loaded
+1552285056350	Marionette	DEBUG	[2147483649] Frame script registered
+1552285056365	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552285056581	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552285090873	Marionette	DEBUG	[2147483649] Received DOM event unload for http://192.168.27.190/srun_portal_pc?ac_id=1&srun_wait=1&theme=basic1
+1552285091234	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483649
+1552285091358	Marionette	INFO	Stopped listening on port 45763
+1553586743821	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JZyXZYliBVSx"
+1553586744363	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1553586744367	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1553586744368	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1553586745467	Marionette	INFO	Listening on port 35681
+1553586745535	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+[Parent 2574, Gecko_IOThread] WARNING: pipe error (68): Connection reset by peer: file /build/firefox-daPcGs/firefox-66.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 2574, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-daPcGs/firefox-66.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1553587006565	Marionette	INFO	Stopped listening on port 35681
+1553591030710	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.cAQGYbYphjF6"
+1553591030978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1553591030978	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1553591030979	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1553591031938	Marionette	INFO	Listening on port 43685
+1553591032013	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 6760, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-daPcGs/firefox-66.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 6760, Gecko_IOThread] WARNING: pipe error (92): Connection reset by peer: file /build/firefox-daPcGs/firefox-66.0+build3/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1553591046851	Marionette	INFO	Stopped listening on port 43685

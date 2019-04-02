@@ -1,0 +1,81 @@
+1552459586927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8HZPaLABNdJd"
+1552459588083	Marionette	INFO	Listening on port 33501
+1552459588131	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552459588163	Marionette	DEBUG	[2147483649] Frame script loaded
+1552459588167	Marionette	DEBUG	[2147483649] Frame script registered
+1552459601876	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552459613862	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552459614627	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for http://www.hooyoo.com/channel?dms=www.baiud.com
+1552459622618	Marionette	DEBUG	[2147483649] Received DOM event pageshow for http://www.hooyoo.com/channel?dms=www.baiud.com
+1552459627987	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for http://www.hooyoo.com/channel?dms=www.baiud.com
+1552459628302	Marionette	DEBUG	[2147483649] Received DOM event pagehide for http://www.hooyoo.com/channel?dms=www.baiud.com
+1552459628303	Marionette	DEBUG	[2147483649] Received DOM event unload for http://www.hooyoo.com/channel?dms=www.baiud.com
+1552459628368	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483733
+1552459628374	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483730
+1552459628374	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483653
+1552459628374	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483654
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483655
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483656
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483657
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483658
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483659
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483660
+1552459628375	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483661
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483662
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483699
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483693
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483663
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483664
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483665
+1552459628376	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483666
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483667
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483668
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483669
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483670
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483671
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483672
+1552459628377	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483724
+1552459628378	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483717
+1552459628378	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483673
+1552459628378	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483674
+1552459628378	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483675
+1552459628378	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483719
+1552459628378	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483716
+1552459628379	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483676
+1552459628379	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483677
+1552459628379	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483678
+1552459628379	Marionette	DEBUG	[2147483649] Received observer notification outer-window-destroyed for 2147483727
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1552459628833	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://www.baidu.com/
+1552459628930	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://www.baidu.com/
+JavaScript error: https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=%E9%9A%8F&json=1&p=3&sid=1442_21102_28607_28585_28557_28604_28627_28606&csor=1&cb=jQuery11020741964294479801_1552459628700&_=1552459628702, line 1: TypeError: jQuery11020741964294479801_1552459628700 is not a function
+1552459704324	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1552459720210	Marionette	INFO	Stopped listening on port 33501

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!--获得用户收藏的文章的信息-->
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        div{
+         height:200px;
+         width:400px;
+         background-color:#ccc;
+         border-radius:5px;
+         margin:10px;
+         list-style:none;
+        }
+
+    </style>
+</head>
+<body>
+<h2>我的收藏</h2>
+
+
+{% for article in articleSet %}
+<div>
+    <li>文章的标题{{ article[1]}}</li>
+    <li>文章的内容{{article[2]}}</li>
+</div>
+{% end %}
+
+</body>
+</html>

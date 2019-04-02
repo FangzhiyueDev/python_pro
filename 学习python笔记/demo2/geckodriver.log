@@ -1,0 +1,328 @@
+1552203512927	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9536su7kmwQu"
+1552203514229	Marionette	INFO	Listening on port 35575
+1552203514241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552203514274	Marionette	DEBUG	[2147483649] Frame script loaded
+1552203514277	Marionette	DEBUG	[2147483649] Frame script registered
+1552203534108	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552203534785	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552203535976	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552203537070	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552203572274	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=n71miuR7KJG0nDaR6tWCRXCP7bQHIxVNSB-G15CqrXI7T_DBNSjB!1396413125, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+
+(/usr/lib/firefox/firefox:10019): dconf-WARNING **: 15:45:15.229: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: "_refreshProcess of computed view cancelled"
+JavaScript warning: resource://devtools/shared/base-loader.js -> resource://devtools/client/shared/demangle.js, line 0: Successfully compiled asm.js code (total compilation time 52ms; unable to cache asm.js in synchronous scripts; try loading asm.js via <script async> or createElement('script'))
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.warn: "Got an unexpected frameLoad in the inspector, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js 369 WalkerFront<.getMutations</<
+1552205532491	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.S4xm8o4yeD6n"
+1552205533701	Marionette	INFO	Listening on port 42137
+1552205533803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552205533833	Marionette	DEBUG	[2147483649] Frame script loaded
+1552205533834	Marionette	DEBUG	[2147483649] Frame script registered
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: "Protocol error (noSuchActor): No such actor for ID: server1.conn0.child1/memoryActor11"
+[Parent 9917, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552205537627	Marionette	INFO	Stopped listening on port 35575
+1552205585739	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552205587028	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552205587658	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552205588139	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=cZlmqif2yaOYZFoB-lO2noH3yJNX48iG2LQAnhTQaHXxriGB_Chg!1396413125, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 12037, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552205730296	Marionette	INFO	Stopped listening on port 42137
+1552205983106	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GpSeMYUHD5m3"
+1552205984234	Marionette	INFO	Listening on port 43051
+1552205984311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552205984343	Marionette	DEBUG	[2147483649] Frame script loaded
+1552205984344	Marionette	DEBUG	[2147483649] Frame script registered
+1552205992914	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552205995111	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552205998194	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552206006351	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552206006598	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=yylmsAkBAXCd_44T8eCfpjXVfTLL__VuVWD6mv7W0ZM_XjcFukFF!1396413125, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 13274, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552206277436	Marionette	INFO	Stopped listening on port 43051
+1552206348068	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tcWhL5dXy2Pe"
+1552206349201	Marionette	INFO	Listening on port 43107
+1552206349273	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552206349306	Marionette	DEBUG	[2147483649] Frame script loaded
+1552206349309	Marionette	DEBUG	[2147483649] Frame script registered
+1552206403875	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552206404523	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552206405156	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552206405458	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552206405700	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=lwpmth_gWNKw8EVImJi8becvg0-D4gfZN_gZ9rSZv7NApDo4VVDZ!1396413125, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:14059): dconf-WARNING **: 16:27:02.787: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+[Parent 13960, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552206805583	Marionette	INFO	Stopped listening on port 43107
+1552209868722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sBfWZ5pFHeyJ"
+1552209869873	Marionette	INFO	Listening on port 35659
+1552209869928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552209869961	Marionette	DEBUG	[2147483649] Frame script loaded
+1552209869965	Marionette	DEBUG	[2147483649] Frame script registered
+1552209870002	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552209870951	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552209871327	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552209871465	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=MXVm6wKhmIJ2acmmMWO7tA07TH59mjERtzQ7tinIOkJTvDUNEPth!1396413125, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552209871720	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:18819): dconf-WARNING **: 17:24:45.186: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 18721, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552209957486	Marionette	INFO	Stopped listening on port 35659
+1552210190029	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FTbYn8NMZOFK"
+1552210191210	Marionette	INFO	Listening on port 35393
+1552210191317	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552210191353	Marionette	DEBUG	[2147483649] Frame script loaded
+1552210191358	Marionette	DEBUG	[2147483649] Frame script registered
+[Parent 19226, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552210216761	Marionette	INFO	Stopped listening on port 35393
+1552210235362	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.JHFpCq6NvFVW"
+1552210236604	Marionette	INFO	Listening on port 40635
+1552210236680	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552210236715	Marionette	DEBUG	[2147483649] Frame script loaded
+1552210236716	Marionette	DEBUG	[2147483649] Frame script registered
+1552210236761	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552210237740	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552210238245	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552210238581	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=cndm8JzpcsEyDbk5lBGP1O-ttvIqxvfAIy-E5NPYdbIFyh5OamkO!1396413125, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552210238846	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:19595): dconf-WARNING **: 17:30:47.699: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552212567214	Marionette	DEBUG	[2147483664] Frame script loaded
+1552212567217	Marionette	DEBUG	[2147483664] Frame script registered
+1552212567242	Marionette	DEBUG	[4294967297] Frame script loaded
+1552212567242	Marionette	DEBUG	[4294967297] Frame script registered
+1552213348509	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+Gdk-Message: 11:15:17.717: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 11:15:17.717: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 11:15:17.717: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+1552225236543	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.wRsFXQmquqNr"
+1552225237659	Marionette	INFO	Listening on port 39239
+1552225237747	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552225237778	Marionette	DEBUG	[2147483649] Frame script loaded
+1552225237779	Marionette	DEBUG	[2147483649] Frame script registered
+1552225237827	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552225238202	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552225238529	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552225238682	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552225238937	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=w7ln1X8N7bDxDPmJPWsKnF1F3v-AwRGWVXuPP6LyczYsWvultWqf!-1259450252, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+1552225496896	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552225536594	Marionette	DEBUG	[2147483657] Frame script loaded
+1552225536598	Marionette	DEBUG	[2147483657] Frame script registered
+1552225536616	Marionette	DEBUG	[4294967297] Frame script loaded
+1552225536616	Marionette	DEBUG	[4294967297] Frame script registered
+1552225554168	Marionette	DEBUG	[2147483660] Frame script loaded
+1552225554173	Marionette	DEBUG	[2147483660] Frame script registered
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1552226482617	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/highlighters/box-model.js, line 416: TypeError: quads is undefined
+1552226550207	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552227092875	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552233555941	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SIDz1YYKksYQ"
+1552233557033	Marionette	INFO	Listening on port 45095
+1552233557047	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552233557078	Marionette	DEBUG	[2147483649] Frame script loaded
+1552233557083	Marionette	DEBUG	[2147483649] Frame script registered
+1552233557160	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552233557603	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552233557997	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552233558131	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552233558387	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=GhdoVHGv9oOvrxScM4oupufiHVbmXwvUzMXdoaw9b310welN44Pz!-1259450252, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552233651690	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552233651915	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552233652201	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1757:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:553:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1757, column: 11
+console.error: "Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null\nStack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1757:11\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:553:13\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1757, column: 11"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1757:11
+send/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:553:13
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+exports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14
+Line: 1757, column: 11
+console.error: "Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null\nStack: onPacket@resource://devtools/shared/base-loader.js -> resource://devtools/server/main.js:1757:11\nsend/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/transport/transport.js:553:13\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nexports.makeInfallible/<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:109:14\nLine: 1757, column: 11"
+console.error: "TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\n_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37\nemit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29\nWalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7\n"
+TypeError: this.onSelected is not a function: onDetachedFront@resource://devtools/shared/base-loader.js -> resource://devtools/client/inspector/computed/computed.js:1461:5
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+_onMutations@resource://devtools/shared/base-loader.js -> resource://devtools/client/framework/selection.js:105:7
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:178:37
+emit@resource://devtools/shared/base-loader.js -> resource://devtools/shared/event-emitter.js:255:29
+WalkerFront<.getMutations</<@resource://devtools/shared/base-loader.js -> resource://devtools/shared/fronts/inspector.js:420:7
+
+[Parent 3492, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552237523514	Marionette	INFO	Stopped listening on port 39239
+[Parent 6245, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552237524864	Marionette	INFO	Stopped listening on port 45095

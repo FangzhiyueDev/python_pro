@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+
+
+    </style>
+    <title>Title</title>
+</head>
+<body>
+
+{% set link="http://localhost:8080/detailPage"%}
+
+{% set collectionLink="http://localhost:8080/collection"%}
+
+
+<h1>网站的首页</h1>
+{% for article in articles %}
+<ul>
+
+    <li><a href="{{ link }}?articleId={{article[0]}}">标题： {{article[1]}}</a>
+        <a href="{{ collectionLink}}?oprate=collection&articleId={{article[0]}}">收藏</a>
+    </li>
+</ul>
+{% end %}
+
+{% set backup="<a href='localhost://8080/index'>返回上一级</a> " %}
+{% raw backup%}
+
+
+<a href="http://localhost:8080/allCollection">查看收藏</a>
+
+
+</body>
+</html>

@@ -1,0 +1,1068 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="Keywords" content="" />
+	<meta name="description" content="" />
+	<link rel="icon" href="/dqmh/tianyiMall/searchMall/static1/img_head/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="/dqmh/tianyiMall/searchMall/static1/img_head/favicon.ico" type="image/x-icon" />
+    <script type="text/javascript">
+    var path_ = '/dqmh';
+    var localhost = 'www.189.cn';
+</script>
+<script type="text/javascript" src="/dqmh/static/js/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="/dqmh/static/js/jquery/jquery-ui-1.8.23.custom.js"></script>
+<script type="text/javascript" src="/dqmh/static/js/ajaxUtils.js"></script>
+<script type="text/javascript" src="/dqmh/static/js/commons.js"></script>
+<script type="text/javascript" src="/js/jquery.cookiescc.js" ></script>  
+<script type="text/javascript" src="/dqmh/static/js/myShoppingCart.js"></script>
+<script type="text/javascript" src="/dqmh/static/js/validate.js"></script>
+
+<!--[if lte IE 6]> 
+<script type="text/javascript" src="/js/DD_belatedPNG_0.0.8a.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('.fixpng,div,ul,li,span');
+</script>
+<![endif]-->
+<script type="text/javascript">
+var contextPath="/dqmh";
+/** 初始化/static/js/bankCardPrepaid/head.js 中变量：
+ * head_userName
+ * head_userType
+**/
+var head_userName = ''+'';
+var head_userType = ''+'';
+/** 根据省市名称获取店铺编码**/ 
+function getShopIdByTheName(){
+
+    var shopId = "10000";//默认店铺ID集团
+    var theName = $("#shengfen").text();
+    if(theName == "集团"){
+        shopId = "10000";
+    }else if(theName == "北京"){
+        shopId = "10001";
+    }else if(theName == "天津"){
+        shopId = "10002";
+    }else if(theName == "辽宁"){
+        shopId = "10005";
+    }else if(theName == "河北"){
+        shopId = "10006";
+    }else if(theName == "山西"){
+        shopId = "10007";
+    }else if(theName == "内蒙古"){
+        shopId = "10008";
+    }else if(theName == "宁夏"){
+        shopId = "10009";
+    }else if(theName == "黑龙江"){
+        shopId = "10010";
+    }else{
+        shopId = getCookieProve('SHOPID_COOKIEID');
+    }
+    
+    return shopId;
+}
+
+
+
+
+function goToLiangHao(){
+    var shopCode = getShopIdByTheName();
+    window.location.href ='/dqmh/tianyiMall/goodNumAction.do?method=getProvAreaForSelect&shopCode='+shopCode+'&pageSize=24&t='+new Date().getTime();
+}
+
+function goToLHHYJ(){
+    var shopCode = getShopIdByTheName();
+    window.location.href ='/dqmh/tianyiMall/goodNumAction.do?method=getProvAreaForSelectLHHYJ&shopCode='+shopCode+'&pageSize=24&t='+new Date().getTime();
+}
+function hidermtj(){
+    var ifram = document.getElementsByTagName("iframe");
+    for(var am in ifram){
+        if(ifram[am].src != null && ifram[am].src.indexOf("/mall/rmtj")>0){
+            ifram[am].id="rmtjId";
+            $("#rmtjId").hide();
+            break;
+        }
+    } 
+}
+</script>
+    <link href="/dqmh/tianyiMall/searchMall/static/css/headtop.css" rel="stylesheet" type="text/css" />
+    <link href="/dqmh/tianyiMall/searchMall/static/css/footdown.css" rel="stylesheet" type="text/css" />
+    <link href="/dqmh/tianyiMall/searchMall/static/css/common.css" rel="stylesheet" type="text/css" />
+    <link href="/dqmh/tianyiMall/searchMall/static/css/my189.css?t=3" rel="stylesheet" type="text/css" />
+    <title>手机列表_天翼卖场_搜索_中国电信网上营业厅</title>
+
+</head>
+<body>
+<!--首部-->
+
+
+<link rel="stylesheet" href="/css/style.css" type="text/css" />
+<!-- 新的头部加载 -->
+
+    <!-- <link type="text/css" rel="stylesheet" href="/image/189new/css/public.css">
+    <link rel="stylesheet" href="/image/189new/css/index.css" type="text/css" /> -->
+    
+    	
+    		<link href="/image/189cnv2/css/common.css" rel="stylesheet" type="text/css" />
+			<link href="/image/189cnv2/css/headtop.css" rel="stylesheet" type="text/css" />
+			<link href="/image/189cnv2/css/footdown.css" rel="stylesheet" type="text/css" />
+			<script type="text/javascript" src="/189v2/fj/filelib/common_head_fj.js"></script>
+    	
+    	
+    
+
+<!-- 原来的头部加载 -->
+
+
+
+
+
+<link rel="stylesheet" href="/dqmh/static/js/jquery/ui-lightness/jquery-ui-1.8.23.custom.css" type="text/css"/>
+<style>
+.white_content {
+ display: none;
+ position: fixed;
+ top: 30%;
+ left: 30%;
+ width:350px;
+ height:180px;
+ padding: 0px 0px;
+ border: 1px solid #D6E9F1;
+ background-color: white;
+ z-index:1002;
+ overflow: auto;
+ 
+ 
+}
+.white_content2 {
+ display: none;
+ position: fixed;
+ top: 30%;
+ left: 30%;
+ width:350px;
+ height:185px;
+ padding: 0px 0px;
+ border: 1px solid #D6E9F1;
+ background-color: white;
+ z-index:1002;
+ overflow: auto;
+ 
+ 
+}
+.black_overlay {
+ display: none;
+ position: fixed;
+ top: 0%;
+ left: 0%;
+ width: 100%;
+ height: 100%;
+ background-color:#f5f5f5;
+ z-index:1001;
+ -moz-opacity: 0.8;
+ opacity:.80;
+ filter: alpha(opacity=80);
+ background: #666666 repeat 50% 50%; 
+ opacity: .50;filter:Alpha(Opacity=50);
+}
+.close {
+ float:right;
+ clear:both;
+ width:100%;
+ text-align:right;
+ margin:0 0 0 0;
+ line-height: 35px;
+ background:#f6a828 url(/dqmh/static/js/jquery/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) repeat-x 50% 50%; color: #000; font-weight: bold;
+}
+.close a {
+ color:#333;
+ text-decoration:none;
+ font-size:14px;
+ font-weight:700;
+ width: 42px; height: 35px; background-image: url(/dqmh/static/image/mall/close.png);
+}
+.ok_close {
+ clear:both;
+ width:100%;
+ text-align:center; 
+}
+.ok_close a {
+color:#666; text-decoration:none; margin:0 3px; float:left; line-height:26px;
+ width:73px; background:url(/dqmh/static/image/zzfw/next.jpg) no-repeat; height:26px; text-align:center; line-height:26px;
+ margin-bottom: 15px
+}
+.con {  
+ line-height:25px;
+ font-size: 14px;
+ height:70px;
+ text-align: center;
+ clear:both;padding:20px 10px 0px 10px;width:330px;
+}
+.btn_2font{ background:url(/dqmh/static/image/public/btn_2font.png)  no-repeat; width:82px; height:34px; line-height:34px; font-size:14px; font-family:"微软雅黑"; text-align:center;border:0px;color:#444}
+
+</style>
+<script>
+function show(tag){
+ var light=document.getElementById(tag);
+ var fade=document.getElementById('fade');
+ light.style.display='block';
+ fade.style.display='block';
+ }
+function hide(tag){
+ var light=document.getElementById(tag);
+ var fade=document.getElementById('fade');
+ light.style.display='none';
+ fade.style.display='none';
+}
+function alertDiv(con_){
+	document.getElementById("fade").style.height = document.body.clientHeight;
+	document.getElementById("div_view_content1").innerHTML=con_;
+	show('light');
+}
+var confirm_boo;
+function confirmDiv(con_,submit_){
+	if(con_.len>21){
+		
+	}
+	document.getElementById("fade").style.height = document.body.clientHeight;
+	//submit_ = submit_.replace("#","'");alert(submit_)	
+	document.getElementById("div_view_content2").innerHTML=con_;
+	document.getElementById('a_ok_submit').href="javascript:hide('light2');"+submit_;
+	show('light2');
+}
+
+function confirmDivQx(con_,submit_){
+	document.getElementById("fade").style.height = document.body.clientHeight;
+	//submit_ = submit_.replace("#","'");alert(submit_)	
+	document.getElementById("div_view_content2").innerHTML="<img src='/dqmh/static/image/zzfw/qx.jpg' style='float:left;'/><span style='padding-bottom:10px;display:inline-block;float:left;margin-top:20px;'>"+con_+"</span>";
+	document.getElementById('a_ok_submit').href="javascript:hide('light2');"+submit_;
+	show('light2');
+}
+function confirmDivPwd(){
+	document.getElementById("fade").style.height = document.body.clientHeight;
+	//submit_ = submit_.replace("#","'");alert(submit_)	
+	//document.getElementById("div_view_content3").innerHTML=con_;
+	document.getElementById('a_ok_submit').href="javascript:hide('light3');";
+	show('light3');
+}
+function alertTelCheckDiv(con_){
+	document.getElementById("fade").style.height = document.body.clientHeight;
+	document.getElementById("div_view_content4").innerHTML=con_;
+	show('light4');
+}
+function alertsubDiv(con_){
+	document.getElementById("fade").style.height = document.body.clientHeight;
+	document.getElementById("div_view_content5").innerHTML=con_;
+	show('light5');
+}
+function hide_submit(){
+	
+}
+ 
+</script>
+<!-- 
+<a href="javascript:void(0)" onclick="show('light')">打开1</a>
+<a href="javascript:void(0)" onclick="show('light2')">打开2</a>
+ -->
+<div id="light" class="white_content ui-corner-all">
+	  <div class="close"><b style="float: left;padding-left: 5px" onclick="hide('light')"> 信息提示</b><a style="float: right;" href="javascript:void(0)" onclick="hide('light')"></a></div> 
+      <div id="div_view_content1" class="con"  > 
+      内容1
+      </div>
+      <div class="ok_close" style=" width:82px;margin:0px auto;  ">
+      		<a href="javascript:void(0)" style="background:url(/dqmh/static/image/public/btn_2font.png)  no-repeat; width:82px; height:34px;  font-size:14px;text-align:center;font-family:'微软雅黑';border:0px;color:#444;" onclick="hide('light')"> 确定</a>
+
+		</div>
+      
+</div>
+<div id="light2" class="white_content ui-corner-all">
+      <!-- <div class="close"><a href="javascript:void(0)" onclick="hide('light2')"> 关闭</a></div> -->
+      <div class="close"><b style="float: left;padding-left: 5px" onclick="hide('light2')"> 信息提示</b><a style="float: right;" href="javascript:void(0)" onclick="hide('light2')"></a></div> 
+      <div id="div_view_content2" class="con" style="padding:20px 10px 0px 60px;width:260px;line-height:22px;"> 
+      内容2 
+      </div>
+      <div class="ok_close"><a id="a_ok_submit" href="javascript:void(0)" style="margin-left: 30%"> 确定</a><a href="javascript:void(0)" onclick="hide('light2')"> 取消</a></div>
+</div>
+<div id="light3" class="white_content ui-corner-all">
+      <!-- <div class="close"><a href="javascript:void(0)" onclick="hide('light2')"> 关闭</a></div> -->
+      <div class="close"><b style="float: left;padding-left: 5px" onclick="hide('light3')"> 系统提示</b><a style="float: right;" href="javascript:void(0)" onclick="hide('light3')"></a></div> 
+      <div id="div_view_content3" class="con" style="text-align:left;"> 
+      &nbsp; &nbsp; &nbsp;进行密码修改之前您需要先登录，如果忘记</br>&nbsp; &nbsp; &nbsp;密码，您需要进行密码重置。
+      </div>
+      <div class="ok_close">
+      <a href="javascript:void(0)" style="margin-left: 25%;background:url(/dqmh/static/image/public/btn_cancle.png)  no-repeat; width:82px; height:34px;  font-size:14px;text-align:center;font-family:'微软雅黑';border:0px;color:#444;"onclick="hide('light3')"> 取消</a>
+      <a id="a_ok_submit" href="/dqmh/login/loginJT.jsp"  style="margin-left:5px;background:url(/dqmh/static/image/public/btn_2font.png)  no-repeat; width:82px; height:34px;  font-size:14px;text-align:center;font-family:'微软雅黑';border:0px;color:#444;">立即登录</a>
+</div>
+</div>
+
+<div id="light4" class="white_content ui-corner-all">
+	  <div class="close"><b style="float: left;padding-left: 5px" onclick="hide('light4')"> 验证结果</b><a style="float: right;" href="javascript:void(0)" onclick="hide('light4')"></a></div> 
+      <div id="div_view_content4" class="con"  > 
+      内容
+      </div>
+      <div class="ok_close" style=" width:82px;margin:0px auto;  ">
+      		<a href="javascript:void(0)" style="background:url(/dqmh/static/image/public/btn_2font.png)  no-repeat; width:82px; height:34px;  font-size:14px;text-align:center;font-family:'微软雅黑';border:0px;color:#444;" onclick="hide('light4')"> 确定</a>
+
+		</div>
+</div>
+<div id="light5" class="white_content2 ui-corner-all">
+	  <div class="close"><b style="float: left;padding-left: 5px" onclick="hide('light5')"> 信息提示</b><a style="float: right;" href="javascript:void(0)" onclick="hide('light5')"></a></div> 
+      <div id="div_view_content5" class="con"  > 
+      内容
+      </div>
+      <div class="ok_close" style=" width:82px;margin:5px auto;  ">
+      		<a href="javascript:void(0)" style="background:url(/dqmh/static/image/public/btn_2font.png)  no-repeat; width:82px; height:34px;  font-size:14px;text-align:center;font-family:'微软雅黑';border:0px;color:#444;" onclick="hide('light5')"> 确定</a>
+
+		</div>
+</div>
+ 
+<div id="fade" class="black_overlay"></div>
+ 
+
+    <!--热卖推荐-->
+    <iframe src="/jt/iframe/search/rmtj/" width="100%" height="200" scrolling="no" frameborder="0"></iframe>
+    <!--end 热卖推荐-->
+    <!--已选条件-->
+    <div class="content1" id="topSelectDiv">
+        <div class="my_h" id="topSelectTemplate" style="display:none"><a class="my_hb" href="#"><span style="font-size:18px; font-weight:bold;">#firstClass</span></a>
+            <div class="my_set"id="xbq" style=" position:relative;z-index:9" >
+                <div class="mys_tit" style=" position:relative; z-index:10">#selectSecondClass</div>
+                <ul class="xbq" style=" position:absolute; z-index:9; left:0;">
+                    <li><a onclick="setShowStatus(this);" href="#secondClassLink">#secondClass</a></li>
+                </ul>
+            </div>
+            <div class="mySelect">
+            	<ul class="left xzjg">
+                <li class="yxtj"><a onclick="setShowStatus(this);" style=" padding:0 15px;float:left" href="#shuxingLink">#shuxingName<span style=" color:#ff8200; line-height:22px;font-size:12px; padding:0 5px;">#shuxingValue</span></a><a class="xzgb" href="#shuxingLink"></a></li>
+            </ul>
+            </div>
+            
+        </div>
+        <div id="topSelectTemplateCache" style="display: none"></div>
+    </div>
+    <!--end 已选条件-->
+    <!--选择区域-->
+    <div class="usr_right1 content">
+            <div class="tb">
+                 #xspLeibie<span>商品筛选</span><a href="#">共#allRows个商品</a>
+            </div>
+           	<div class="installFilterImg" style="text-align:center">
+           		<br/><br/><img src="/dqmh/storesback/image/load.gif"><br/><br/>
+           	</div>
+           	<div class="installFilterPage" style="display:none;">
+            <div class="zj" id="shuxingDiv">
+            	 <div id="shuxingTemplate" class="bq qian" name="#shuxingEname" style="display:none">
+                      <div class="clearfix">
+                          <div class="mz left">#shuxingName</div>
+                          <ul class="left">
+                              <li><a onclick="return shuxingSelect(this);" href="#shuxingLink">#shuxingValue</a></li> 
+                          </ul>
+                          <div class="moredx right"><a>多选</a></div>
+                          <div class="more right"><a>更多</a></div>
+                          <div class="moresq right"><a>收起</a></div>
+                      </div>
+                      <div class="qdqx"><a name="confirm" href="javascript:void(0)"><input class="sousuoan confirm" type="button" onclick="deliver(this);" value="确定" /></a><input class="sousuoan qx" type="button" value="取消" /></div>
+                 </div>
+                 <div id="shuxingTemplateCache" style="display: none"></div>
+            </div> 
+            <div class="zhankai"><div class="zkmore"><a>展开更多</a></div></div>
+            <div class="zhankai" style=" display:none;"><div class="shouqi"><a>收起</a></div></div>
+	    </div>
+	</div>
+    <!--end 已选区域-->
+    <!--选择区域-->
+    <div class="content clearfix">
+        <div style="height:40px; line-height:40px;"></div>
+        <!--左侧-->
+        <iframe src="/jt/iframe/search/bktj/" style="float:left"  height="900" width="194" scrolling="no" frameborder="0"></iframe>
+        <!--右侧-->
+        <div class="usr_right right" id="middleDiv">
+            <div class="zx" id="middleTemplate" Style="display:none">
+                 <div class="s">
+                      <div class="left"><span class="wjt">排序：</span>
+                      		<a href="#xsjLink" onclick="setShowStatus(this);"><span name="xsjFlag" class="yjt">价格</span></a>
+                      		<a href="#updateFlagLink" onclick="setShowStatus(this);"><span class="yjt" name="updateFlag">上架时间</span></a>
+                      		<a href="#salesFlagLink" onclick="setShowStatus(this);"><span class="yjt" name="salesFlag">销量</span></a>
+                      		<a href="#defaultSortLink" onclick="setShowStatus(this);"><span class="defaultSort" name="">默认排序</span></a>
+                      </div>
+                      <div class="right"><a class="youbian" onclick="setShowStatus(this);" href="#"></a><a class="zuobian" onclick="setShowStatus(this);" href="#"></a><span class="pt pageSpace" id="allGoodsIndex"><span class="bpt">#currentPage</span>/#allPages</span><span class="pt" id="allGoodsCnt">共#allRows个商品</span></div>
+                 </div>
+                 <div class="x"> 
+                      <div class="xdk">
+                           <a href="#ts_kcLink" onclick="setShowStatus(this);" name="ts_kc" class="me hur">仅显示有货</a>                  
+      		               <a href="#ts_zpLink1" onclick="setShowStatus(this);"><input name="ts_zp" value="1" type="radio" checked="checked" onclick="deliver(this)">全部</a>
+      		               <a href="#ts_zpLink2" onclick="setShowStatus(this);"><input name="ts_zp" value="2" type="radio" onclick="deliver(this)">包含赠品</a>	
+      		               <a href="#ts_zpLink3" onclick="setShowStatus(this);"><input name="ts_zp" value="3" type="radio" onclick="deliver(this)">无赠品</a>
+                      </div> 
+                      <div class="xdky">
+                          <ul>
+                              <li class="lb"><a>列表</a></li>
+                              <li style=" margin-right:8px; margin-left:4px;">|</li>
+                              <li class="dt dtl"><a>大图</a></li>
+                          </ul>
+                      </div> 		
+                 </div> 
+            </div>
+            <div id="middleTemplateCache" style="display: none"></div>
+            <div class="xb">
+                 <div class="list_fr" >
+                 	<div class="installListImg" style="text-align:left">
+		           		<br/><br/><img src="/dqmh/storesback/image/load.gif"><br/><br/>
+		           	</div>
+                 	<div class="installListPage" style="display:none;">
+                     <div class="dtzs" style=" display:none;">
+                          <ul id="lineUl" class="lineUl">
+                                
+                               <ol id="lineList" style="display:none">   
+                                    <div class="sslbz left">
+                                         <div class="sslbzt left">
+                                         	  <a class="fenxiangurl" href="#salesLink" salesProdId="#salesProdId" salesShopId="#salesShopId" target="_blank">
+                                                 <img class="t" src="#imgUrl" />
+                                              </a> 
+                                              <div style="#tuangou" class="tuangou">
+			                                  	<b></b><span>团购</span>
+			                                  </div>
+                                              <div class="sousuolz">
+                                                    <div onclick="leftRunLinePic(this)" class="createicon-left" style="float:left;margin-top:20px;margin-left:5px"></div>
+                                                    <div class="linePicList picId" style="float: left; overflow: hidden; position: relative; height: 50px; width: 130px;">
+                                                        <ul id="picAll_0" style="line-height: 50px; margin-left: 5px; width: 178px; height: 50px;">
+																 
+															 <div class="pictureCs2">
+															    <img src="#picList.url" code="#picList.code" longTitle="#picList.longTitle" secondTitle="#picList.secondTitle" width="35" height="35" style="border:1px solid red;margin-top:4px;">
+															 </div>
+															 <div class="pictureCs1">
+																<img src="#picList.url" code="#picList.code" longTitle="#picList.longTitle" secondTitle="#picList.secondTitle" width="35" height="35" style="border:1px solid #e5e5e5;margin-top:4px;">
+															 </div>
+														</ul>
+													</div>
+                                                    <div onclick="rightRunLinePic(this)" class="createicon-right" style="margin-top:20px;float:right;margin-left:4px"></div>
+                                              </div>
+                                         </div>                    
+                                         <div class="sslbzz left">
+                                              <p>
+	                                              <a  href="#salesLink" target="_blank"  style="height:5.5em;overflow:hidden; text-align:left;display:block" >
+						      		                 #longTitle<span style="font-size:14px;font-family:微软雅黑">#secondTitle</span><span class="cuxiaoyu">#mediumTitle</span>
+				 		                          </a>
+			 		                          </p>
+                                              <span class="sousuolp" style="#zengpin">赠品</span><span class="sousuofq" style="#fenqi">分期付款</span>
+                                         </div>
+                                         <div style=" clear:both;"></div>
+                                    </div>
+                                    <div class="sslby right">
+                                          <table width="400" border="0" cellspacing="0" cellpadding="0">
+                                                  <tr>
+                                                    <td style=" width:15%"><span class="sousuoy">￥<span class="sousuoq">#xsj</span></span></td>
+                                                    <td style=" width:10%"><!-- <del class="sousuos">#scj</del> --></td>
+                                                    <td style=" width:60%"><span class="sousuoyh">#instock</span></td>
+                                                    <td style=" width:15%" class="sousuoligm"><a href="#salesLink2" target="_blank">立即购买</a></td>
+                                                  </tr>
+                                           </table>
+                                           <div class="ax">
+                                                <img onclick="view(this)" onmouseover="mouseover(this,'2')"  src="/dqmh/tianyiMall/searchMall/static/images/ld.png" />
+												<!--列表分享功能-->
+												<div id="fenxiangview" class="jiathis_style" style="display: none;position:absolute; right:10px; bottom:10px;">
+																<span class="jiathis_txt">分享到：</span>
+																<a class="jiathis_button_qzone">QQ空间</a>
+																<a class="jiathis_button_tsina">新浪微薄</a>
+																<a class="jiathis_button_tqq">腾讯微薄</a>
+																<a class="jiathis_button_renren">人人网</a>
+																<a class="jiathis_button_kaixin001">开心网</a>
+																<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+																<a class="jiathis_counter_style"></a>
+												</div>
+												<!--列表收藏功能-->
+												<a href="Javascript:void(0);" onclick="attention(this,'2');">		
+                                                <img src="/dqmh/tianyiMall/searchMall/static/images/ax.png" /></a>
+                                           </div>
+                                           </div>
+                                    <div style=" clear:both;"></div>
+                               </ol>
+                               	<div id="lineListCache" style="display: none">
+								</div>
+                           </ul>
+                     </div> 
+                     <!-- 大图显示 -->
+                     <div class="lbzs list" style=" display:block;"> 
+                           <ul id="blockUl">
+	                                  <li id="blockList" style="height:420px;display: none">
+				                         <a class="fenxiangurl img_a" href="#salesLink" salesProdId="#salesProdId" salesShopId="#salesShopId" class="img_a" target="_blank">
+			                                 <img src="#imgUrl" border="0">
+				                         </a>
+				                         <div class="ax" style="margin-top:-30px;margin-bottom:10px;position:relative;">
+		                                       <img onmouseover="mouseover(this,'1')"  onclick="view2(this)"  src="/dqmh/tianyiMall/searchMall/static/images/ld.png" style="  float:left; margin-left:10px; cursor:pointer;position:relative; " />
+											   <!--大图分享功能-->
+		                                       <div id="fenxiangview2" class="jiathis_style" style="display: none; position:relative;  left:0;z-index:999; margin-left:30px;">
+													<a class="jiathis_button_qzone"></a>
+													<a class="jiathis_button_weixin"></a>
+													<a class="jiathis_button_tsina"></a>
+													<a class="jiathis_button_tqq"></a>
+													<a class="jiathis_button_renren"></a>
+													<a class="jiathis_button_kaixin001"></a>
+													<a class="jiathis_button_email"></a>
+													<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+											   </div>
+											   <!--大图收藏功能-->
+											   <a href="Javascript:void(0);" onclick="attention(this,'1');">
+		                                       <img src="/dqmh/tianyiMall/searchMall/static/images/ax.png" style=" float:right; margin-right:5px; cursor:pointer;" /></a>
+		                                       <div style=" clear:both;"></div>
+		                                 </div>
+				                         <div onclick="leftRunBigPic(this)" class="createicon-left" style="float:left;margin-top:20px;margin-left:5px"></div>
+				                         <div style="height:55px;margin-top:0px;width:212px;overflow:hidden;float:left;margin-left:4px" class="picId">
+				                             <ul id="picAll_0">
+					                            <div class="pictureCs2">
+					  	                          <img src="#picList.url" code="#picList.code" longTitle="#picList.longTitle" secondTitle="#picList.secondTitle" style="border:1px solid red;margin-top:4px;" height="35" width="35">
+		                                        </div>
+		                                        <div class="pictureCs1">
+					  	                          <img src="#picList.url" code="#picList.code" longTitle="#picList.longTitle" secondTitle="#picList.secondTitle" style="border:1px solid #e5e5e5;margin-top:4px;" height="35" width="35">
+		                                        </div>
+		                                        <div class="pictureCs1">
+					  	                          <img src="#picList.url" code="#picList.code" longTitle="#picList.longTitle" secondTitle="#picList.secondTitle" style="border:1px solid #e5e5e5;margin-top:4px;" height="35" width="35">
+		                                        </div>
+				                             </ul>
+				                          </div>
+				                          <div onclick="rightRunBigPic(this)" class="createicon-right" style="margin-top:20px;float:left;margin-left:4px"></div>
+				                          <br style="clear:both;height:0;overflow:hidden;">
+			                              <a href="#salesLink" target="_blank"  style="height:4.5em;overflow:hidden; text-align:left;" class="wz">
+				      		                 #longTitle<span style="font-size:12px;font-family:宋体">#secondTitle</span><span class="cuxiaoyu">#mediumTitle</span>
+		 		                          </a>
+			                              <span class="price" style="font-weight:normal;padding:0px 0;color: #ff8200;padding-left:7px">￥<span class="redword" style="font-weight:normal;color: #ff8200; font-size:18px;">#xsj</span></span>
+			                              <!-- <del style="top:2px; font-size:12px;">#scj</del>  -->
+			                              <span class="stock">#instock</span> 
+		                                  <div style=" clear:both;"></div>
+		                                  <span class="sousuolp" style="#zengpin">赠品</span>
+		                                  <span class="sousuofq" style="#fenqi">分期付款</span>
+		                                  
+		                                  <div style="#tuangou" class="tuangou">
+		                                  	<b></b><span>团购</span>
+		                                  </div>
+		                                 </li>
+									  <div id="blockListCache" style="display: none">
+									  </div>
+                          </ul>   
+                     </div>
+			</div>
+                 </div>
+                 <!--分页-->
+                 <div style="display: block; margin-top:15px;" id="pageInfoDiv" class="phoneShow_PageN">
+                    <ul id="pageInfoTemplate" style="display:none">
+		                <li class="w50"><a style="color: rgb(150, 150, 150);cursor: pointer;" href="#prevPageLink" onclick="setShowStatus(this);">上一页</a></li>
+                        <li><a class="num"  href="#currentPageLink" onclick="setShowStatus(this);">#currentPage</a></li>
+		                <li class="w50"><a href="#nextPageLink" style="color: rgb(150, 150, 150);" onclick="setShowStatus(this);">下一页</a></li>
+		                <li class="last w160"><span class="">共<span class="allPages">#allPages</span>页&nbsp;&nbsp;&nbsp;去第&nbsp; <input type="text" class="goToPage"> &nbsp;页</span></li>
+                        <li class=" threePoint"><a href="Javascript:goToPage(this);">GO</a></li>
+	                </ul>
+	                <div id="pageInfoCache" style="display: none"></div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!--end 选择区域-->
+    <!--网厅优选-->
+    <iframe src="/jt/iframe/search/wtyx/" width="100%" height="435" scrolling="no" frameborder="0"></iframe>
+<!--尾部开始-->
+
+<!--尾部开始-->
+
+<!--尾部结束-->
+<!-- 新尾部加载 -->
+
+	
+    	
+    		<script type="text/javascript" src="/189v2/fj/filelib/common_foot_fj.js"></script>
+    	
+    	
+    
+
+<!-- 老尾部加載 -->
+
+
+ <!--web分析start-->
+ <script language="JavaScript" type="text/javascript" src="/dqmh/static/js/need_countcodes.js"></script>
+
+ <!--web分析end-->
+<!--尾部结束-->
+<!-- 数据加载 -->
+<script type="text/javascript">
+$(document).ready(function(){
+	var valideUserVisitNum='0';//用户访问次数是否超限标识
+	var resultInfoObj = {"flag":"0","errorDescription":null,"code":"0","dataObject":{"classify":{"智能终端|317":{"健康监测":29,"智能手环":18,"体感车":1,"智能防丢":6,"智能手表":27,"智能安防":9,"其他设备":114,"智能家居":101,"运动跟踪":12},"流量产品|1":{"流量卡":1},"充值卡|2":{"其它":2},"套餐|72":{"其它":4,"4G套餐":68},"宽带|16":{"宽带套餐":16},"靓号|2":{"其它":2},"流量包|6":{"流量包":6},"时尚配件|395":{"车载配件":48,"其他":71,"数据线缆":68,"电源电池":64,"支架外设":29,"无线路由":2,"耳机音箱":105,"存储设备":2,"防护套膜":6},"手机|182":{"裸机":136,"合约机":1,"其它":45}},"shuxing":{"":["0.0","149.0","165.0","1888.0","219.0","1199.0","1249.0","129.0","139.0","309.0","559.0","649.0","1188.0","1699.0","1899.0","2029.0","2299.0","199.0","499.0","529.0","599.0","645.0","769.0","770.0","798.0","899.0","1099.0","1499.0","1599.0","1649.0","1749.0","1799.0","2369.0","3699.0","3999.0","5999.0","7099.0","109.0","155.0","228.0","279.0","519.0","545.0","639.0","749.0","799.0","839.0","888.0","909.0","929.0","959.0","999.0","1018.0","1035.0","1039.0","1069.0","1139.0","1229.0","1239.0","1278.0","1299.0","1329.0","1419.0","1449.0","1488.0","1489.0","1588.0","1639.0","1669.0","1689.0","1729.0","1818.0","1949.0","1959.0","1999.0","2020.0","2099.0","2229.0","2269.0","2319.0","2349.0","2359.0","2388.0","2399.0","2449.0","2466.0","2599.0","2699.0","2749.0","2929.0","2978.0","3099.0","3299.0","4299.0","4499.0","4599.0","4655.0","4755.0","4799.0","4999.0"],"系统|xitong":["安卓（Android）","其它","苹果（IOS）"],"屏幕尺寸|chichun":["5.6英寸及以上","3.0英寸及以下","5.5-5.1英寸","5.0-4.6英寸","4.5-3.1英寸","其它"],"searchWay":["1"],"品牌|pinpai":["华为","其它","荣耀","苹果","小米","魅族","诺基亚","锋达通","100+","TCL","三星","其他品牌","海信","酷派","摩托罗拉"],"价格|jiage":["0-549"," 550-1399"," 1400-2399"," 2400以上"],"功能|gongneng":["网络热销","高清大屏","老人机","待机长","自拍神器","安全手机","其它","速度快","双卡双待"]},"proList":[{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/4/11/0000000092C7C380448F4158ADE5769FCB2408A8.jpg","mediumTitle":"","salesCode":"01944104423","longTitle":"iPhone 7 plus 128G 银色","secondTitle":"两个镜头 一拍 即合"}],"mediumTitle":"","tg":"0","secondTitle":"两个镜头 一拍 即合","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/4/11/0000000092C7C380448F4158ADE5769FCB2408A8.jpg","bLinkUrl":"","mkTitle":"网厅-iPhone 7 plus 128G 银色","stock":"0","salesProdId":"000000003C476CE6A07030A9E053AA1410ACCBB6","shopId":"1003600094","longTitle":"iPhone 7 plus 128G 银色","salesCode":"01944104423","scj":"5099","xsj":"5099.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/4/8/11/0000000033938A00238648B38C833EED92895EC7.jpg","mediumTitle":"此款手机已升级最新版本无收音机功能！","salesCode":"0194495357","longTitle":"Fadar/锋达通 C5 电信版老人机 红色","secondTitle":"电信版老人手机大字大声电信手机"}],"mediumTitle":"此款手机已升级最新版本无收音机功能！","tg":"0","secondTitle":"电信版老人手机大字大声电信手机","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/4/8/11/0000000033938A00238648B38C833EED92895EC7.jpg","bLinkUrl":"","mkTitle":"网厅-锋达通 C5 电信版老人机 红色","stock":"88","salesProdId":"00000000372A2574EFE74D90E053AC1410AC91F8","shopId":"1003600094","longTitle":"Fadar/锋达通 C5 电信版老人机 红色","salesCode":"0194495357","scj":"199","xsj":"139.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/4/8/11/00000000223A5CF1B16F4C3F84894483C27D8975.jpg","mediumTitle":"此款手机已升级最新版本无收音机功能！","salesCode":"0194496571","longTitle":"Fadar/锋达通 C5 电信版老人机 黑色","secondTitle":"电信版老人手机大字大声电信手机"}],"mediumTitle":"此款手机已升级最新版本无收音机功能！","tg":"0","secondTitle":"电信版老人手机大字大声电信手机","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/4/8/11/00000000223A5CF1B16F4C3F84894483C27D8975.jpg","bLinkUrl":"","mkTitle":"网厅-锋达通 C5 电信版老人机 黑色","stock":"91","salesProdId":"00000000380C947BAA896677E053AE1410ACCB4B","shopId":"1003600094","longTitle":"Fadar/锋达通 C5 电信版老人机 黑色","salesCode":"0194496571","scj":"199","xsj":"139.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/4/11/00000000ABEF34E9DA1141139BFBD4A57A6E8643.jpg","mediumTitle":"","salesCode":"01944104434","longTitle":"iPhone 7 plus 32G 黑色","secondTitle":"两个镜头 一拍 即合"}],"mediumTitle":"","tg":"0","secondTitle":"两个镜头 一拍 即合","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/4/11/00000000ABEF34E9DA1141139BFBD4A57A6E8643.jpg","bLinkUrl":"","mkTitle":"网厅-iPhone 7 plus 32G 黑色","stock":"2","salesProdId":"000000003C45F33D63C97712E053AA1410AC113C","shopId":"1003600094","longTitle":"iPhone 7 plus 32G 黑色","salesCode":"01944104434","scj":"4599","xsj":"4599.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000ED51094001F2448BB85916BADADF164A.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146705","longTitle":"iPhone8 64G 深空灰色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/000000007FCDEA40D92D490C8CE4996CF59150F1.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146716","longTitle":"iphone8 64G 金色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000DDC5E6677BF24E1EB828337D26B4117B.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146677","longTitle":"iphone8 64G 银色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/4/13/11/00000000FB6456BD537748FBAE59F9D31607090F.jpg","mediumTitle":"","salesCode":"01944178363","longTitle":"iPhone8 64G 红色","secondTitle":"红色特别版"}],"mediumTitle":"双面全玻璃、无线充电","tg":"0","secondTitle":"双面全玻璃、无线充电","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000ED51094001F2448BB85916BADADF164A.png","bLinkUrl":"","mkTitle":"网厅-iPhone8 64G 深空灰色","stock":"99","salesProdId":"000000005930B3F1E2617988E053AE1410AC9F39","shopId":"1003600094","longTitle":"iPhone8 64G 深空灰色","salesCode":"01944146705","scj":"4755","xsj":"4755.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000CC56C305AFF945B8B09E09E48EA4CD17.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146723","longTitle":"iphone8 Plus 256G 银色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/000000001B9563B9818146F8809FD2413080C6A8.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146750","longTitle":"iphone8 Plus 256G 金色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/4/13/11/000000009AC88AFA65AB4311B16FA756F2E99EE1.jpg","mediumTitle":"红色特别款","salesCode":"01944178368","longTitle":"iPhone8 Plus 256G 红色","secondTitle":"红色特别款"}],"mediumTitle":"双面全玻璃、无线充电","tg":"0","secondTitle":"双面全玻璃、无线充电","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000CC56C305AFF945B8B09E09E48EA4CD17.png","bLinkUrl":"","mkTitle":"网厅-iphone8 Plus 256G 银色","stock":"100","salesProdId":"0000000059324E9331601FFFE053AA1410ACA485","shopId":"1003600094","longTitle":"iphone8 Plus 256G 银色","salesCode":"01944146723","scj":"7099","xsj":"7099.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/000000004639159CB79B48FAADD421A64CA1FF02.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146721","longTitle":"iphone8 Plus 256G 深空灰色","secondTitle":"双面全玻璃、无线充电"}],"mediumTitle":"双面全玻璃、无线充电","tg":"0","secondTitle":"双面全玻璃、无线充电","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/000000004639159CB79B48FAADD421A64CA1FF02.png","bLinkUrl":"","mkTitle":"网厅-iphone8 Plus 256G 深空灰色","stock":"100","salesProdId":"00000000593473503E111D94E053AA1410AC9405","shopId":"1003600094","longTitle":"iphone8 Plus 256G 深空灰色","salesCode":"01944146721","scj":"7099","xsj":"7099.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/1/4/11/00000000D1995B76AE404E04BC9E4436B838F7B1.jpg","mediumTitle":"柔光自拍/舒适握感/长续航","salesCode":"01944146771","longTitle":"荣耀 畅玩6 全网通 （2G+16G）白色","secondTitle":"柔光自拍/舒适握感/长续航"}],"mediumTitle":"柔光自拍/舒适握感/长续航","tg":"0","secondTitle":"柔光自拍/舒适握感/长续航","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/1/4/11/00000000D1995B76AE404E04BC9E4436B838F7B1.jpg","bLinkUrl":"","mkTitle":"网厅-荣耀 畅玩6 全网通 （2G+16G）白色","stock":"492","salesProdId":"000000005934735044441D94E053AA1410AC9405","shopId":"1003600094","longTitle":"荣耀 畅玩6 全网通 （2G+16G）白色","salesCode":"01944146771","scj":"529","xsj":"529.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000CEF389987A6346109A8C5EBCC260E2F8.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146729","longTitle":"iphone8 Plus 64G 金色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/1/5/11/00000000D3541E53032842E1A817631937B6711F.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146732","longTitle":"iphone8 Plus 64G 银色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000D61694EBF7DB4534A1B05D1902606C92.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146730","longTitle":"iphone8 Plus 64G 深空灰色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/4/13/11/00000000B43A7130558E4AF4BF72394234F9F0A9.jpg","mediumTitle":"红色特别款","salesCode":"01944178389","longTitle":"iPhone8 Plus 64G 红色","secondTitle":"红色特别款"}],"mediumTitle":"双面全玻璃、无线充电","tg":"0","secondTitle":"双面全玻璃、无线充电","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000CEF389987A6346109A8C5EBCC260E2F8.png","bLinkUrl":"","mkTitle":"网厅-iphone8 Plus 64G 金色","stock":"99","salesProdId":"0000000059347351803A2B5AE053AC1410ACE12D","shopId":"1003600094","longTitle":"iphone8 Plus 64G 金色","salesCode":"01944146729","scj":"5735","xsj":"5735.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000902251B82C4545ADB8B5306536D75694.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146707","longTitle":"iphone8 256G 金色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000891CA76BE1974654B5325A0E17CEEF25.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146734","longTitle":"iphone8 256G 深空灰色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/000000009BC0ACACF3424D99B072C97E9AE7FE1E.png","mediumTitle":"双面全玻璃、无线充电","salesCode":"01944146708","longTitle":"iphone8 256G 银色","secondTitle":"双面全玻璃、无线充电"},{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/4/13/11/00000000D5012EB3FDAD4283B9E1A9F38F1F86DC.jpg","mediumTitle":"","salesCode":"01944178365","longTitle":"iPhone8 256G 红色","secondTitle":"红色特别版"}],"mediumTitle":"双面全玻璃、无线充电","tg":"0","secondTitle":"双面全玻璃、无线充电","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/12/6/11/00000000902251B82C4545ADB8B5306536D75694.png","bLinkUrl":"","mkTitle":"网厅-iphone8 256G 金色","stock":"100","salesProdId":"00000000593473520F2B5B89E053AE1410AC01AD","shopId":"1003600094","longTitle":"iphone8 256G 金色","salesCode":"01944146707","scj":"6025","xsj":"6025.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/1/4/11/00000000C410FE0ECB7843A984F6B3CD7ADBE47E.jpg","mediumTitle":"柔光自拍/舒适握感/长续航","salesCode":"01944146747","longTitle":"荣耀 畅玩6 全网通 （2G+16G）金色","secondTitle":"柔光自拍/舒适握感/长续航"}],"mediumTitle":"柔光自拍/舒适握感/长续航","tg":"0","secondTitle":"柔光自拍/舒适握感/长续航","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/1/4/11/00000000C410FE0ECB7843A984F6B3CD7ADBE47E.jpg","bLinkUrl":"","mkTitle":"网厅-荣耀 畅玩6 全网通 （2G+16G）金色","stock":"473","salesProdId":"00000000593524CC2F377A76E053AC1410ACBEE2","shopId":"1003600094","longTitle":"荣耀 畅玩6 全网通 （2G+16G）金色","salesCode":"01944146747","scj":"529","xsj":"529.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2017/11/30/11/0000000094E1CA919EA14734BF36F44EB3DC8994.jpg","mediumTitle":"双瞳如小窗 佳景观历历","salesCode":"01944148290","longTitle":"魅族 pro7 plus 全网通（6G+64G) 静谧黑","secondTitle":"双瞳如小窗 佳景观历历"}],"mediumTitle":"双瞳如小窗 佳景观历历","tg":"0","secondTitle":"双瞳如小窗 佳景观历历","imgUrl":"http://image1.chinatelecom-ec.com/images/2017/11/30/11/0000000094E1CA919EA14734BF36F44EB3DC8994.jpg","bLinkUrl":"","mkTitle":"网厅-魅族 pro7 plus 全网通（6G+64G) 静谧黑","stock":"1","salesProdId":"000000005A256A71BDDF160AE053AE1410AC35C6","shopId":"1003600094","longTitle":"魅族 pro7 plus 全网通（6G+64G) 静谧黑","salesCode":"01944148290","scj":"2099","xsj":"2099.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/1/22/11/0000000007817E9061664A319687B766EE927B36.png","mediumTitle":"","salesCode":"01944120070","longTitle":"飞利浦 E133X 电信2G 老人手机 炫舞红","secondTitle":"大字体 大按键 大音量 键盘直板手机"}],"mediumTitle":"","tg":"0","secondTitle":"大字体 大按键 大音量 键盘直板手机","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/1/22/11/0000000007817E9061664A319687B766EE927B36.png","bLinkUrl":"","mkTitle":"网厅-飞利浦 E133x 电信版 红色","stock":"80","salesProdId":"0000000046700287C5EF0BB8E053AE1410AC8A83","shopId":"1003600094","longTitle":"飞利浦 E133X 电信2G 老人手机 炫舞红","salesCode":"01944120070","scj":"238","xsj":"199.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/2/26/11/0000000077DDCC10E1EB4514A5A6DB90D98F95C1.jpg","mediumTitle":"","salesCode":"01944120629","longTitle":"百合 C20A 黑色 电信老人机","secondTitle":"送老人 汇聚孝心"}],"mediumTitle":"","tg":"0","secondTitle":"送老人 汇聚孝心","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/2/26/11/0000000077DDCC10E1EB4514A5A6DB90D98F95C1.jpg","bLinkUrl":"","mkTitle":"网厅-百合 C20A 黑","stock":"100","salesProdId":"0000000046E209E356B949E8E053AA1410AC488B","shopId":"1003600094","longTitle":"百合 C20A 黑色 电信老人机","salesCode":"01944120629","scj":"129","xsj":"129.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/2/26/11/0000000089B1EFFF3EF74640BA2CFCADAC04CEB0.jpg","mediumTitle":"","salesCode":"01944120632","longTitle":"百合 C30A 金色 电信翻盖手机","secondTitle":"精致纤薄 格调自现"}],"mediumTitle":"","tg":"0","secondTitle":"精致纤薄 格调自现","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/2/26/11/0000000089B1EFFF3EF74640BA2CFCADAC04CEB0.jpg","bLinkUrl":"","mkTitle":"网厅-百合 C30A 金","stock":"95","salesProdId":"0000000046E209E3570249E8E053AA1410AC488B","shopId":"1003600094","longTitle":"百合 C30A 金色 电信翻盖手机","salesCode":"01944120632","scj":"219","xsj":"219.0","fq":"0"},{"gift":"0","bType":"0","groupProd":[{"picUrl":"http://image1.chinatelecom-ec.com/images/2018/2/26/11/0000000014AB219B3C0A47638AB6FCC7356DEAF7.jpg","mediumTitle":"","salesCode":"01944120634","longTitle":"百合 C30A 蓝色 电信翻盖手机","secondTitle":"精致纤薄 格调自现"}],"mediumTitle":"","tg":"0","secondTitle":"精致纤薄 格调自现","imgUrl":"http://image1.chinatelecom-ec.com/images/2018/2/26/11/0000000014AB219B3C0A47638AB6FCC7356DEAF7.jpg","bLinkUrl":"","mkTitle":"网厅-百合 C30A 蓝","stock":"98","salesProdId":"0000000046E209E3577849E8E053AA1410AC488B","shopId":"1003600094","longTitle":"百合 C30A 蓝色 电信翻盖手机","salesCode":"01944120634","scj":"219","xsj":"219.0","fq":"0"}],"pageInfo":{"allRows":175,"allPages":11,"pageSize":"16","currentPage":"1"}},"requestUrl":"http://www.189.cn/dqmh/tianyiMall/searchMallAction.do?method=shopPhone&xspLeibie=手机&shopId=10014&pageSize=16&currentPage=1&internal_search=1"};
+	var resultInfo = JSON.stringify(resultInfoObj);
+	if(resultInfo==""||resultInfo==null||valideUserVisitNum=="1"){
+		window.location.href='/dqmh/tianyiMall/searchMall/noResult.jsp?searchtext=&t=3';
+	}else{
+		resultInfo = resultInfo.replace(/[\r\n]/g,"");
+		var resultInfoJsonObj = eval('(' + resultInfo + ')');
+		var requestUrl = resultInfoJsonObj.requestUrl;
+		//alert(requestUrl);
+		
+		var listHtml =  $("#blockList").prop("outerHTML");
+		var linelistHtml =  $("#lineList").prop("outerHTML");
+		//var listSwtichHtml = $("#blockList div").prop("outerHTML");
+		
+		//alert(listHtml);
+		initConstants(requestUrl);
+		var resultDataObj = resultInfoJsonObj.dataObject;
+		if(resultInfoJsonObj.flag=="1"||resultInfoJsonObj.flag==""){
+			$(".content1").css("display","none");//隐藏过滤小标签
+			$(".usr_right1").css("display","none");//隐藏过滤属性
+			$(".usr_right").css("display","none");//隐藏商品展示
+			var errorHtml="";
+			errorHtml="<div class='errorHtml'>系统正在维护，请稍后再试！</div>";
+			$(".content.clearfix").append(errorHtml);
+		}else{
+			var xmlList = resultDataObj.proList;
+			var filterAllRows=resultDataObj.pageInfo.allRows;
+			//filterAllRows="0";
+			if(filterAllRows=="0"||filterAllRows==""){
+				$(".installListImg").css("display","none");
+				$(".phoneShow_PageN").css("display","none");
+				$(".list_fr").html("<h2 class='noData'>暂无数据！</h2>");
+			}else{
+				initBlockList(listHtml, xmlList,$("#blockUl"),$("#blockListCache"));
+				initLineList(linelistHtml, xmlList,$("#lineUl"),$("#lineListCache"));
+			}
+
+			var shuxingData = resultDataObj.shuxing;
+			var shuxingHtml = $("#shuxingTemplate").prop("outerHTML");
+			initShuxingList(shuxingHtml,shuxingData,$("#shuxingDiv"),$("#shuxingTemplateCache"));
+			
+			var topData = resultDataObj.classify;
+			//alert(topData);
+			var topHtml= $("#topSelectTemplate").prop("outerHTML");
+			initTopList(topHtml,topData,shuxingData,$("#topSelectDiv"),$("#topSelectTemplateCache"));
+			
+			var middleHtml = $("#middleTemplate").prop("outerHTML");
+			initMiddleList(middleHtml,resultDataObj.shuxing.searchWay,$("#middleDiv"),$("#middleTemplateCache"));
+			
+			var pageHtml = $("#pageInfoTemplate").find("li");
+			initPageList(pageHtml,resultDataObj.pageInfo, $("#pageInfoTemplate"),$("#pageInfoCache"));
+		}
+	}
+	loadShareJs();
+});
+
+</script>
+<!--小图左右移动-->
+<script type="text/javascript">
+function leftRunBigPic(that){
+	var ulObj=$(that).siblings(".picId").find("ul");
+	var position = $(ulObj).css("marginLeft");  
+	var img_length=$(ulObj).children().length;
+	var totle_length=img_length*35-175;
+	position=parseInt(position.replace("px",""));
+	if(position<0){
+	$(ulObj).animate({marginLeft:parseInt(position)+42+"px"},10);
+	}
+}
+function rightRunBigPic(that){ 
+	var ulObj=$(that).siblings(".picId").find("ul");
+	var position = $(ulObj).css("marginLeft");  
+	var img_length=$(ulObj).children().length;
+	var totle_length=img_length*35-175;
+	position=parseInt(position.replace("px",""));
+	if(position>-totle_length){
+		$(ulObj).animate({marginLeft:position-42+"px"},10);
+	}
+}
+function leftRunLinePic(that){
+	var ulObj=$(that).siblings(".picId").find("ul");
+	var position = $(ulObj).css("marginLeft");  
+	var img_length=$(ulObj).children().length;
+	var totle_length=img_length*35-105;
+	position=parseInt(position.replace("px",""));
+	if(position<0){
+	$(ulObj).animate({marginLeft:parseInt(position)+42+"px"},10);
+	}
+}
+
+function rightRunLinePic(that){
+	var ulObj=$(that).siblings(".picId").find("ul");
+	var position = $(ulObj).css("marginLeft");  
+	var img_length=$(ulObj).children().length;
+	var totle_length=img_length*35-105;
+	position=parseInt(position.replace("px",""));
+	if(position>-totle_length){
+		$(ulObj).animate({marginLeft:position-42+"px"},10);
+	}
+} 
+</script>
+<!--展开全部-->
+<script type="text/javascript">
+	$(function(){
+		var itemLength=3;//过滤属性收起时默认显示条数
+		var identify=false;
+		$("#shuxingDiv .qian").each(function(idex,item){
+			  var display=$(item).css("display");
+			  if(display!="none"){
+				  $(item).addClass("itemShow").css("height","40px");
+			  }
+		   });
+		var moreText="";
+		var len=$(".zj .itemShow").length;
+		$("#shuxingDiv .itemShow").each(function(idex,item){
+			   if(idex>itemLength-1){
+				   identify=true;
+				   $(this).hide();
+				   if(idex+1!=len){
+					   moreText+=$(this).find(".clearfix .mz").text().substring(0,$(this).find(".clearfix .mz").text().indexOf("："))+",";
+				   }else{
+					   moreText+=$(this).find(".clearfix .mz").text().substring(0,$(this).find(".clearfix .mz").text().indexOf("："));
+				   }
+			   }
+			  
+		   });
+		 if(identify){
+			 if(moreText!=""){
+				 $(".zhankai .zkmore a").html("展开更多（"+moreText+"）");
+			 }else{
+				 $(".zhankai .zkmore a").html("展开更多");
+			 }
+	         $(".zhankai .zkmore a").click(
+			  function(){
+				   $(".zkmore").parent().css('display','none');
+				   $(".shouqi").parent().css('display','block');
+				   $("#shuxingDiv .itemShow").each(function(idex,item){
+						   $(this).show();
+				   });
+	          });
+			  $(".zhankai .shouqi a").click(
+			  function(){
+				   $(".zkmore").parent().css('display','block');
+				   $(".shouqi").parent().css('display','none');
+				   $("#shuxingDiv .itemShow").each(function(idex,item){
+					   if(idex>itemLength-1){
+						   $(this).hide();
+					   }
+				   });
+	          });
+		 }else{
+			 $(".zhankai").css('display','none');
+		 }
+     });
+</script>
+<!--点击多选-->
+<script type="text/javascript">
+	$(function(){	
+         var liobj=$(".zj .bq");
+         liobj.each(function(){
+            $(".moredx").click(function(){
+               $(this).parent().parent().removeClass("qian");
+       		   $(this).parent().parent().attr("style","");
+       		   $(this).siblings(".more").hide();
+       		   $(this).siblings(".moresq").hide();
+               $(this).parent().parent().addClass("hou");
+       		   $(".hou li a").unbind("click");
+       		   $(this).siblings("ul").find("li a").removeClass("hurry");
+       		   //$(this).parent().siblings(".qdqx").find(".confirm").attr("disabled","disabled");
+             });
+			 $(".qx").click(function(){
+			   $(this).parent().siblings(".clearfix").find("ul li a").removeClass("hurry");
+			   $(this).siblings(".confirm").removeAttr("disabled");
+		  	   $(this).parent().parent().removeClass("hou");
+	           $(this).parent().parent().addClass("qian");
+	           $(this).closest(".qian").css("height","40px");
+	           $(this).parent().parent().find(".more").show();
+	           moreShow();
+             });
+         });
+     });
+</script>
+<!--多选状态-->
+
+<!--仅显示有货-->
+<script type="text/javascript">
+	$(function(){	
+            $(".me").click(function(){
+			    if($(this).hasClass("hur")){
+			         $(this).removeClass("hur");
+			    }else{
+                     $(this).addClass("hur");}
+             });
+     });
+</script>
+<!--tab切换-->
+<script type="text/javascript">
+	$(function(){	
+            $(".dt").click(function(){
+			    if($(this).hasClass("dtl")){
+			    }else{
+                     $(this).addClass("dtl");
+					 $(".lb").removeClass('lbl');
+					 $(".lbzs").show();
+					 $(".dtzs").hide();
+					 }
+             });
+			 $(".lb").click(function(){
+			    if($(this).hasClass("lbl")){
+			    }else{
+                     $(this).addClass("lbl");
+					 $(".dt").removeClass('dtl');
+					 $(".dtzs").show();
+					 $(".lbzs").hide();
+					 }
+             });
+     });
+</script>
+<!--更多、收起按钮切换-->
+<script type="text/javascript">
+//更多按钮根据行数展示
+function moreShow(){
+	var clearfixObj=$(".itemShow .clearfix");
+	clearfixObj.each(function(idex,item){
+		var initHeight=40;
+		var compareObjCss=$(item).parent().parent().css("display");
+		//alert("compareObjCss=="+compareObjCss);
+		if(compareObjCss!="none"){
+			var currentheight=$(item).height(); 
+			currentheight=parseInt(currentheight);
+			if(currentheight>initHeight){
+				$(item).find(".more").css("display","block");
+			}else{
+				$(item).find(".more").css("display","none");
+			}
+		}
+		
+	});
+}
+$(function (){
+	moreShow();
+	$(".qian .more").unbind("click");
+	$(".qian .more").click(function(){
+		$(this).closest(".qian").css("height","auto");
+		$(this).hide();
+		$(this).next(".moresq").show();
+	});
+	$(".qian .moresq").unbind("click");
+	$(".qian .moresq").click(function(){
+		$(this).closest(".qian").css("height","40px");
+		$(this).hide();
+		$(this).prev(".more").show();
+	});
+});
+
+</script>
+
+<!--点选小图-->
+<script type="text/javascript">
+$(function(){
+ 	$(".picId ul div").unbind("click");
+ 	$(".picId ul div").click(function(){ 
+ 		$(this).removeClass("pictureCs1").addClass("pictureCs2");
+		$(this).children().css("border","1px solid red");
+		$(this).siblings().removeClass("pictureCs2").addClass("pictureCs1");
+		$(this).siblings().children().css("border","1px solid #e5e5e5");
+		var src=$(this).children().attr("src");
+		var code=$(this).children().attr("code");
+		var longTitle=$(this).children().attr("longTitle")=="null"?"":$(this).children().attr("longTitle");
+		var secondTitle=$(this).children().attr("secondTitle")=="null"?"":$(this).children().attr("secondTitle");
+		var cuxiaoyu=$(this).parent().parent().siblings(".wz").find(".cuxiaoyu").text();
+		
+		var href="http://www.189.cn/products/"+code+".html";
+		$(this).parent().parent().siblings().not($(".ax")).children().attr("src",src);
+		$(this).parent().parent().siblings().not($(".ax")).eq(4).attr("href",href);
+		$(this).parent().parent().siblings().not($(".ax")).eq(4).html(longTitle+'<span style="font-size:12px;font-family:宋体">'+secondTitle+'</span><span class="cuxiaoyu">'+cuxiaoyu+'</span>');
+		$(this).parent().parent().siblings().not($(".ax")).attr("href",href);
+ 	});
+ 	$(".sousuolz div div").unbind("click");
+ 	$(".sousuolz div div").click(function(){
+ 		$(this).removeClass("pictureCs1").addClass("pictureCs2");
+		$(this).children().css("border","1px solid red");
+		$(this).siblings().removeClass("pictureCs2").addClass("pictureCs1");
+		$(this).siblings().children().css("border","1px solid #e5e5e5");
+		var src=$(this).children().attr("src");
+		var code=$(this).children().attr("code");
+		var longTitle=$(this).children().attr("longTitle")=="null"?"":$(this).children().attr("longTitle");
+		var secondTitle=$(this).children().attr("secondTitle")=="null"?"":$(this).children().attr("secondTitle");
+		var cuxiaoyu=$(this).parent().parent().parent().parent().siblings().find("p a .cuxiaoyu").text();
+		
+		var href="http://www.189.cn/products/"+code+".html";
+		$(this).parent().parent().parent().parent().children().attr("src",src);
+		$(this).parent().parent().siblings().not($(".ax")).eq(4).attr("href",href);
+		$(this).parent().parent().parent().parent().siblings().find("p a").html(longTitle+'<span style="font-size:14px;font-family:微软雅黑">'+secondTitle+'</span><span class="cuxiaoyu">'+cuxiaoyu+'</span>');
+		$(this).parent().parent().siblings().not($(".ax")).attr("href",href);
+ 	});
+});
+
+
+</script>
+<!-- shuxingDiv展开、收起点击事件 -->
+<script type="text/javascript">
+</script>
+<!-- 分享功能 -->
+<script type="text/javascript">
+//分享的url
+var fenxiangurl=''; 
+if(document.getElementById('fenxiangurl')) {
+    fenxiangurl = document.getElementById('fenxiangurl').href;
+} 
+//自定义分享的信息
+var jiathis_config = { 
+pic:"",
+url: fenxiangurl, 
+title: "", 
+summary:""
+}; 					
+//列表分享功能展示						
+function view(that){
+	jiathis_config.url=$(that).closest(".ax").siblings(".fenxiangurl").attr("href");
+	$(that).mouseenter(
+		function(){$(that).siblings(".jiathis_style").show();loadShareJs();}
+	);
+	$(that).closest(".ax").mouseleave(
+		function(){$(that).siblings(".jiathis_style").hide();}
+	);
+}
+//滑动分享
+function mouseover(that,index){
+	$(that).siblings(".jiathis_style").show();
+	//loadShareJs();
+	if(index==1){
+		jiathis_config.url=$(that).closest(".ax").siblings(".fenxiangurl").attr("href");
+	}else if(index==2){
+		jiathis_config.url=$(that).closest(".sslby").siblings(".sslbz").find(".fenxiangurl").attr("href");
+	}else{
+		jiathis_config.url="";
+	}
+	var shareA=$(that).siblings("#fenxiangview2").find("a");
+	var len=shareA.length;
+	shareA.each(function(idex,item){
+		if(idex!=len-1){
+			$(item).find("span").text("");
+		}else{
+			$(item).text("");
+		}
+	});
+	$(that).closest(".ax").mouseleave(function(){
+			$(that).siblings(".jiathis_style").hide();
+		}
+	);
+}
+
+//大图分享功能展示						
+function view2(that){
+	jiathis_config.url=$(that).closest(".ax").siblings(".fenxiangurl").attr("href");
+	$(that).mouseenter(
+		function(){$(that).siblings(".jiathis_style").show();loadShareJs();}
+	);
+	$(that).closest(".ax").mouseleave(
+		function(){$(that).siblings(".jiathis_style").hide();}
+	);
+}
+//加载分享功能js文件
+function loadShareJs(){
+	var oHead = document.getElementsByTagName('HEAD').item(0);
+	var oScript= document.createElement("script");
+	oScript.type = "text/javascript";
+	oScript.src="http://v2.jiathis.com/code/jia.js";
+	oHead.appendChild( oScript);
+}
+//收藏功能
+/*function AddFavorite(sURL, sTitle) {
+	attention();
+	 try {
+	 window.external.addFavorite(sURL, sTitle); 
+	}catch (e) {
+		try {
+			window.sidebar.addPanel(sTitle, sURL, ""); 
+		} catch (e){
+			alert("加入收藏失败，请使用Ctrl+D进行添加"); 
+		} 
+	}  
+} */
+</script>
+<!--小标签-->
+<script type="text/javascript">
+	$(function(){	
+         $(".my_set").hover(
+		  function(){
+			   $(".xbq").show();
+			   $(".mys_tit").addClass('xbqsbg');
+          },function(){
+			   $(".xbq").hide();
+			   $(".mys_tit").removeClass('xbqsbg');
+          }
+		 );
+     });
+</script>
+<script type="text/javascript" src="/dqmh/static/js/searchMall/goodsListNew.js?t=13"></script>
+<!--商品展示头部的上一页，下一页-->
+<script type="text/javascript">
+	$(function(){	
+         var prevPage=$(".phoneShow_PageN ul .w50").eq(0).find("a").attr("href");
+         var nextPage=$(".phoneShow_PageN ul .w50").eq(1).find("a").attr("href");
+         $(".right .zuobian").attr("href",prevPage);
+         $(".right .youbian").attr("href",nextPage);
+     });
+</script>
+<!--大图列表显示模式-->
+<script type="text/javascript">
+	$(function(){	
+		if(getMinusValue("listType")==0){
+			$(".dt").trigger("click");
+		}else{
+			$(".lb").trigger("click");
+		}
+		
+     });
+</script>
+<!-- 收藏关注功能 -->
+<script type="text/javascript">
+function attention(that,index){
+	var productId ="";
+	var shop_id="";
+	if(index==1){
+		productId=$(that).closest(".ax").siblings(".fenxiangurl").attr("salesProdId");
+		shop_id=$(that).closest(".ax").siblings(".fenxiangurl").attr("salesShopId");
+	}else if(index==2){
+		productId=$(that).closest(".sslby").siblings(".sslbz").find(".fenxiangurl").attr("salesProdId");
+		shop_id=$(that).closest(".sslby").siblings(".sslbz").find(".fenxiangurl").attr("salesShopId");
+	}
+	 var url="/dqmh/tradingCenter/myCollection.do?method=isUser";
+	 var params = {}
+	 $.post(url,params,function(data){
+		var json = eval(data);
+		if(json=="0"){
+			var options = {
+				autoOpen: false,
+				title:"我的关注",
+				draggable :  true,
+				bgiframe: true,  
+				width: '400',
+				height:'265'
+			};
+			var dlg = fin_dialog(0,"我的关注",
+				"/dqmh/tradingCenter/myCollection.do?method=addMyCollection&productId="+productId+"&shop_id="+shop_id,options);
+		}else{
+			var locate = window.location.href;
+			window.location.href="/dqmh/tradingCenter/myCollection.do?method=loginGoHistory&returnUrl="+locate;
+		}
+	 });
+}
+//关闭关注窗口
+function submit_notice() {
+	$("#0_dialog").dialog('close');
+}
+</script>
+</body>
+</html>

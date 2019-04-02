@@ -1,0 +1,579 @@
+1552281771601	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.VQ7MOS05Rs5z"
+1552281772706	Marionette	INFO	Listening on port 33295
+1552281772827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552281772872	Marionette	DEBUG	[2147483649] Frame script loaded
+1552281772880	Marionette	DEBUG	[2147483649] Frame script registered
+1552281772917	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552281773547	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552281773852	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552281774118	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=LTxrNCg9TEZLBHhfKUA1sJ0CGjxATDhcq7vKzlMad4aHfrtQrhx8!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552281774350	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:21793): dconf-WARNING **: 13:23:00.516: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552281787633	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552281787910	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552281788141	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552281788429	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552313846515	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8CJA9Xsngod2"
+1552313848047	Marionette	INFO	Listening on port 35765
+1552313848130	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552313848171	Marionette	DEBUG	[2147483649] Frame script loaded
+1552313848172	Marionette	DEBUG	[2147483649] Frame script registered
+1552313848284	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552313850604	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552313851326	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552313851889	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552313852158	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=6p1tHaCEtCqxaF5yjacWu2RTTvoiTl6KHMPC2ByJR8IE97UHrHuN!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552313865389	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313865684	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313865976	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313866273	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313866316	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.FWKVH5KLUrR3"
+1552313867463	Marionette	INFO	Listening on port 46005
+1552313867523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552313867555	Marionette	DEBUG	[2147483649] Frame script loaded
+1552313867557	Marionette	DEBUG	[2147483649] Frame script registered
+1552313867613	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552313869903	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552313870692	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552313871291	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552313871571	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=4jdtHexiqds9WjsfWUyN74Vc728cIMm6fj0jXBToI5rgeZSRez8T!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:9722): dconf-WARNING **: 22:17:57.757: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552313884786	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313885084	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313885375	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552313885663	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314039699	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8dw6OeWU46ea"
+1552314040789	Marionette	INFO	Listening on port 45603
+1552314040810	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314040841	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314040847	Marionette	DEBUG	[2147483649] Frame script registered
+1552314040922	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314041943	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314042536	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314042891	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314043146	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=YhNtIIqMCSTxAxNNzZhPhmnM5RclUKdrOHPPy3Z-TRgFKrxH-2Jj!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:10236): dconf-WARNING **: 22:20:49.344: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314056410	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314056670	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314056896	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314057184	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314057225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.hkR07UiMIFMQ"
+1552314058353	Marionette	INFO	Listening on port 40843
+1552314058429	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314058459	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314058460	Marionette	DEBUG	[2147483649] Frame script registered
+1552314058513	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314059330	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314059942	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314060264	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314060516	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=NT9tIM5o4NBiaWYdcQnUrc_3RWKFMXir2fABl0L3qxGnJxn3eRBE!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:10470): dconf-WARNING **: 22:21:06.736: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314073783	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314074064	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314074362	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314074652	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552314309702	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nuekBcPjKtMi"
+1552314310839	Marionette	INFO	Listening on port 46861
+1552314310907	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314310940	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314310940	Marionette	DEBUG	[2147483649] Frame script registered
+1552314311000	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314311818	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314312487	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314312825	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314313082	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=TyptJKkMH7R3omT5NhkBUAxIAhvkKIoffnAjanaR3jHISD8pGRv-!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:10839): dconf-WARNING **: 22:25:19.255: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314326316	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314326600	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314326896	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314327197	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314327236	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.LTBf6nXybghC"
+1552314328358	Marionette	INFO	Listening on port 36261
+1552314328443	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314328476	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314328477	Marionette	DEBUG	[2147483649] Frame script registered
+1552314328517	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314330363	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314332743	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314333259	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314333505	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=6PVtJPjaMUXTPyJjCd3vk_KT99amkTwno0OClSaZ8g3VzYSoZVoh!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:11072): dconf-WARNING **: 22:25:39.696: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314346702	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314346980	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314347280	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314347567	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+[Parent 10142, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314617920	Marionette	INFO	Stopped listening on port 45603
+[Parent 10735, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314619713	Marionette	INFO	Stopped listening on port 46861
+[Parent 10971, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314621112	Marionette	INFO	Stopped listening on port 36261
+1552314630497	Marionette	INFO	Stopped listening on port 40843
+1552314638604	Marionette	INFO	Stopped listening on port 35765
+[Parent 9627, Gecko_IOThread] WARNING: pipe error (59): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314639813	Marionette	INFO	Stopped listening on port 46005
+1552314650502	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xDe9RZOO4Brc"
+1552314651588	Marionette	INFO	Listening on port 42179
+1552314651608	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314651640	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314651641	Marionette	DEBUG	[2147483649] Frame script registered
+1552314651716	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314652806	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314653421	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314653703	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314653959	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=5chtKdzG-AVBwvignDBZxwyH797gsQe2sQ7p0gunevRLdohociFN!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:11602): dconf-WARNING **: 22:31:00.128: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314667156	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314667434	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314667727	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314668016	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 11505, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314727051	Marionette	INFO	Stopped listening on port 42179
+1552314810335	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.HnJXMi11k8da"
+1552314811457	Marionette	INFO	Listening on port 33673
+1552314811540	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314811573	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314811573	Marionette	DEBUG	[2147483649] Frame script registered
+1552314811601	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314813902	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314814562	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314814982	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314815238	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=TBdtLFKyI8Y-yCdFNKCjOG3CQ4TCAY2RKTbFAhGEZsIAEBU-NX07!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:11916): dconf-WARNING **: 22:33:41.412: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314828481	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314828774	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314829052	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314829324	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314829378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mQCtS31TGJp4"
+1552314830509	Marionette	INFO	Listening on port 37919
+1552314830597	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552314830629	Marionette	DEBUG	[2147483649] Frame script loaded
+1552314830630	Marionette	DEBUG	[2147483649] Frame script registered
+1552314830708	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552314832539	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552314833210	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552314833436	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552314833679	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=zKNtLJqib1VF6duUehwKSR-Pw-0-fTK3QEHSR9pP2ENcdZzArDL_!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:12148): dconf-WARNING **: 22:33:59.875: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552314846900	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314847138	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314847433	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552314847720	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 12050, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314853147	Marionette	INFO	Stopped listening on port 37919
+[Parent 11817, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552314854073	Marionette	INFO	Stopped listening on port 33673
+1552322694196	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.txOMd9pqn9OK"
+1552322695364	Marionette	INFO	Listening on port 38839
+1552322695411	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552322695468	Marionette	DEBUG	[2147483649] Frame script loaded
+1552322695469	Marionette	DEBUG	[2147483649] Frame script registered
+1552322695524	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552322696237	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552322696817	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552322697086	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552322697346	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=9bBtpJgBXemEBPFqfNIQtNI-_mp4PqI3RuhUGR_FdPS2q-rWQ1W5!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:17198): dconf-WARNING **: 00:45:03.520: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552322710586	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322710848	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322711131	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322711422	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322716485	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.vvs7eu4IqNa1"
+1552322717612	Marionette	INFO	Listening on port 36063
+1552322717690	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552322717723	Marionette	DEBUG	[2147483649] Frame script loaded
+1552322717724	Marionette	DEBUG	[2147483649] Frame script registered
+1552322717764	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552322718447	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552322719199	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552322719707	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552322719965	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=trNtpPBhDwJxn7Mps4HnoX0xtXypHImKeeVWu03onptgLHIn0gMe!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:17426): dconf-WARNING **: 00:45:26.158: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552322733221	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322733513	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322733806	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552322734118	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+[Parent 17330, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552323109277	Marionette	INFO	Stopped listening on port 36063
+1552323206564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.sRHEWgJFjwUR"
+1552323207746	Marionette	INFO	Listening on port 40877
+1552323207771	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552323207802	Marionette	DEBUG	[2147483649] Frame script loaded
+1552323207803	Marionette	DEBUG	[2147483649] Frame script registered
+1552323207857	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552323208597	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552323209139	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552323209494	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552323209759	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=mjhtrGmdIQF0ddwzugybWlCo3bZlXKj9p-QFWH9a0ZkJGI_CMugb!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:17902): dconf-WARNING **: 00:53:35.960: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552323223034	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323223318	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323223616	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323223911	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323228960	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6sok1x2VpR5i"
+1552323230054	Marionette	INFO	Listening on port 43323
+1552323230068	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552323230101	Marionette	DEBUG	[2147483649] Frame script loaded
+1552323230105	Marionette	DEBUG	[2147483649] Frame script registered
+1552323230182	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552323231467	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552323232024	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552323232389	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552323232648	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=q3htrMMNSk8fbspxiSEZPzvfQTkbyhTucDAizibIMHG71QPRitXs!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:18130): dconf-WARNING **: 00:53:58.829: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552323245878	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323246162	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323246463	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323246757	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 17802, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552323525474	Marionette	INFO	Stopped listening on port 40877
+[Parent 18033, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552323526973	Marionette	INFO	Stopped listening on port 43323
+1552323528188	Marionette	INFO	Stopped listening on port 38839
+1552323565472	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ReW0PtZc0RDE"
+1552323566641	Marionette	INFO	Listening on port 42193
+1552323566677	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552323566713	Marionette	DEBUG	[2147483649] Frame script loaded
+1552323566717	Marionette	DEBUG	[2147483649] Frame script registered
+1552323566789	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552323567480	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552323568092	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552323568339	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552323568596	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=cBJtseNYxvn6KP3XccIUYM8WvISLoZHoX4mFnDyMIERNz9RRaiYu!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:18564): dconf-WARNING **: 00:59:34.766: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552323581867	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323582150	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323582422	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323582714	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323587850	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.a7iBWwoNaT3n"
+1552323588975	Marionette	INFO	Listening on port 36799
+1552323589054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552323589085	Marionette	DEBUG	[2147483649] Frame script loaded
+1552323589086	Marionette	DEBUG	[2147483649] Frame script registered
+1552323589123	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552323589823	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552323590365	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552323590636	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552323590888	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=n2NtsjpqjraDfu5_spVYw5e3RjHv5reRS_lwwUSBwN_LWb6oSK9K!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:18792): dconf-WARNING **: 00:59:57.043: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552323604087	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323604364	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323604670	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552323604963	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552324093590	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.6qTJzwdrcIdV"
+1552324094698	Marionette	INFO	Listening on port 43131
+1552324094797	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552324094829	Marionette	DEBUG	[2147483649] Frame script loaded
+1552324094830	Marionette	DEBUG	[2147483649] Frame script registered
+1552324094878	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552324097095	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552324097664	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552324097919	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552324098178	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=61FtufgT8My94ineZYdymZ8qooUIuADLqjEvfY4ciRTAgq7DAwaX!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:19241): dconf-WARNING **: 01:08:24.364: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552324111421	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324111687	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324111983	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324112278	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324117328	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.zG9DbbRcnIwn"
+1552324118467	Marionette	INFO	Listening on port 35591
+1552324118544	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552324118580	Marionette	DEBUG	[2147483649] Frame script loaded
+1552324118581	Marionette	DEBUG	[2147483649] Frame script registered
+1552324118641	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552324119299	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552324119837	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552324120160	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552324120423	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=s1ltuk7zzAFs3lx-iz4IFshwdGgwV1hV3oXZvG0pYahfY-1aLrSP!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:19475): dconf-WARNING **: 01:08:46.569: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552324133641	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324133923	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324134219	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324134506	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+[Parent 19382, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552324264400	Marionette	INFO	Stopped listening on port 35591
+[Parent 18692, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552324265985	Marionette	INFO	Stopped listening on port 36799
+[Parent 18466, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552324267473	Marionette	INFO	Stopped listening on port 42193
+[Parent 19153, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552324268939	Marionette	INFO	Stopped listening on port 43131
+1552324407614	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.fkNMvRJHGsPM"
+1552324408751	Marionette	INFO	Listening on port 40145
+1552324408825	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552324408857	Marionette	DEBUG	[2147483649] Frame script loaded
+1552324408859	Marionette	DEBUG	[2147483649] Frame script registered
+1552324408898	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552324409518	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552324410051	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552324410319	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552324410572	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=ncdtvrxdTr21uQWvP5qcuy4gMFa45PYCGUJ4joDXiFyLHXIKp6aF!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:19883): dconf-WARNING **: 01:13:36.779: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552324423851	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324424133	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324424427	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324424721	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324429791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ZQkNqLrnlT5C"
+1552324430846	Marionette	INFO	Listening on port 45733
+1552324430896	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552324430927	Marionette	DEBUG	[2147483649] Frame script loaded
+1552324430928	Marionette	DEBUG	[2147483649] Frame script registered
+1552324430984	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552324431675	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552324432225	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552324433369	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552324433633	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=hdFtvxZ1S41MDrVi0tUt5V_a-FRU9nCV621ZCpBkogGjmRpt4Yrr!711696277, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:20111): dconf-WARNING **: 01:13:59.823: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552324446875	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324447168	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324447463	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552324447756	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 20013, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552324497576	Marionette	INFO	Stopped listening on port 45733
+[Parent 19790, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552324498813	Marionette	INFO	Stopped listening on port 40145
+1552446342567	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.s4MVuGNdRu2Y"
+1552446343786	Marionette	INFO	Listening on port 40367
+1552446343882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552446343919	Marionette	DEBUG	[2147483649] Frame script loaded
+1552446343920	Marionette	DEBUG	[2147483649] Frame script registered
+1552446343954	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552446344697	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552446345127	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552446345415	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=H4J1A1FQc-7YbqDazyxWMCN8j53MQe704VmK7EQXOrIuvKDG_hG4!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552446345652	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:6603): dconf-WARNING **: 11:05:51.786: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552446358777	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446359000	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446359244	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446359484	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446364529	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.W7XAaQEkgysB"
+1552446365745	Marionette	INFO	Listening on port 37549
+1552446365758	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552446365791	Marionette	DEBUG	[2147483649] Frame script loaded
+1552446365792	Marionette	DEBUG	[2147483649] Frame script registered
+1552446365859	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552446366601	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552446367609	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552446368589	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552446368823	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=EBZ1A6vYzOes_JNVUfrg75Y_hHvoYP6X8dYRnXj2Pbp_j-o2DHA5!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:6841): dconf-WARNING **: 11:06:14.941: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+[Parent 6740, Gecko_IOThread] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552446394573	Marionette	INFO	Stopped listening on port 37549
+[Parent 6495, Gecko_IOThread] WARNING: pipe error (46): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552446397171	Marionette	INFO	Stopped listening on port 40367
+1552446554266	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.L4KpKSJmblbo"
+1552446555380	Marionette	INFO	Listening on port 44613
+1552446555486	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552446555521	Marionette	DEBUG	[2147483649] Frame script loaded
+1552446555522	Marionette	DEBUG	[2147483649] Frame script registered
+1552446555580	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552446556197	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552446556800	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552446556878	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=dfF1Botrhz9UmrPo-Jv_Zv7Cbtq5c2rXVIvLbFB8YL4LNbr-39Ou!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1552446557101	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+
+(/usr/lib/firefox/firefox:7204): dconf-WARNING **: 11:09:23.277: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552446572368	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446572642	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446572909	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446573197	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446578240	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.aiJmhmzaAdqq"
+1552446579391	Marionette	INFO	Listening on port 36453
+1552446579444	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552446579477	Marionette	DEBUG	[2147483649] Frame script loaded
+1552446579477	Marionette	DEBUG	[2147483649] Frame script registered
+1552446579548	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552446580153	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552446580627	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552446580757	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552446581005	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=k9V1Bui617kn5ZNfgaxUVgoXvhSoUM_et7Wjj2_y6MNu-FlGNvcq!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:7439): dconf-WARNING **: 11:09:47.199: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552446596267	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446596556	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446596857	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552446597151	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:711:13
+
+1552447957889	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.EoJE80hs23Pw"
+1552447958938	Marionette	INFO	Listening on port 40179
+1552447958992	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552447959025	Marionette	DEBUG	[2147483649] Frame script loaded
+1552447959026	Marionette	DEBUG	[2147483649] Frame script registered
+1552447959060	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552447960254	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552447960760	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552447961314	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552447961559	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=SFh1G_pJD1wtShtRvn9r1yzZnJ7BgpYm6Ip9N89xjonsmkr5YveH!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:8368): dconf-WARNING **: 11:32:47.706: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552447976742	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552447977038	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552447977331	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552447977627	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552447982672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.2QflVS0pcIxX"
+1552447983788	Marionette	INFO	Listening on port 34297
+1552447983882	Marionette	WARN	TLS certificate errors will be ignored for this session
+1552447983943	Marionette	DEBUG	[2147483649] Frame script loaded
+1552447983944	Marionette	DEBUG	[2147483649] Frame script registered
+1552447983977	Marionette	DEBUG	[2147483649] Received DOM event beforeunload for about:blank
+1552447984876	Marionette	DEBUG	[2147483649] Received DOM event pagehide for about:blank
+1552447985352	Marionette	DEBUG	[2147483649] Received DOM event DOMContentLoaded for https://etax.ah-n-tax.gov.cn/
+1552447985553	Marionette	DEBUG	[2147483649] Received DOM event pageshow for https://etax.ah-n-tax.gov.cn/
+1552447985826	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+JavaScript warning: https://etax.ah-n-tax.gov.cn/cas/plugin/jquery/jquery-1.9.1.min.js?JSESSIONID1=sfp1HFlxBwzn3T6d3NNF9d2orAJHf1SnedJgbyDFeTT0ZyxfEg-R!470613483, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+
+(/usr/lib/firefox/firefox:8601): dconf-WARNING **: 11:33:12.006: Unable to open /var/lib/snapd/desktop/dconf/profile/user: Permission denied
+1552448001066	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552448001347	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552448001651	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+1552448001917	Marionette	DEBUG	[2147483649] Canceled page load listener because no navigation has been detected
+[Parent 8509, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552448024604	Marionette	INFO	Stopped listening on port 34297
+[Parent 8273, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552448026263	Marionette	INFO	Stopped listening on port 40179
+[Parent 7113, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552448053423	Marionette	INFO	Stopped listening on port 44613
+[Parent 7340, Gecko_IOThread] WARNING: pipe error (76): Connection reset by peer: file /build/firefox-IVlCbR/firefox-62.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1552448054803	Marionette	INFO	Stopped listening on port 36453
